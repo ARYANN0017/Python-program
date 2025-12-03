@@ -7,6 +7,7 @@ import time   #delay(alaram)
 import threading  #run alaram in bg
 import songplaylist   #song file import
 
+
 engine = pyttsx3.init()
 engine.setProperty("rate", 180)    #speed 180 to talk
 engine.setProperty("volume", 1.0)   # 1.0  volumn full
